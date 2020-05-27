@@ -1,0 +1,32 @@
+# global
+*.class
+*.log
+convert_binary*
+
+# SBT
+boot/
+lib_managed/
+target/
+.history
+
+#idea artifacts
+.idea
+*.eml
+*.iml
+*.ipr
+*.iws
+out/
+
+# eclipse artifacts
+.settings
+.project
+.classpath
+.cache
+.scala_dependencies
+.target/
+
+# Mac
+.DS_Store
+
+# Vim
+*.swp
